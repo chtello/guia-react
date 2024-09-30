@@ -1,11 +1,11 @@
 
 import Prob1 from "./Problema1"
-import prob2 from "./Problema2"
-import prob3 from "./Problema3"
+import Prob2 from "./Problema2"
+
 function Ejercisios() {
   return (
     <>
-      <Prob1/>
+      <Prob2/>
     </>
   )
 }

@@ -1,0 +1,9 @@
+.cards{
+    justify-content: center;
+    gap: 10px 20px;
+height: 33%;
+width: 50%;
+
+border-color: black;
+background-color: rgb(236, 228, 166);
+}

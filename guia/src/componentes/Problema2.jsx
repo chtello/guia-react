@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react"
 import Cards from './Card';
+import Navbar from './Navbar';
 import './prob2.css'
 function Problema2() {
     const [productos, setProductos] = useState([])
@@ -33,6 +34,7 @@ const filtro = productos.filter(producto => producto.title.toLowerCase().include
 
 return (
     <>
+    <Navbar/>
         <h4>Busca tus productos</h4>
         <input type="text" onChange={busco} value={busqueda} />
         <div>

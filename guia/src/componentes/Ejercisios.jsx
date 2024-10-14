@@ -1,11 +1,20 @@
-
-import Prob1 from "./Problema1"
-import Prob2 from "./Problema2"
+import { BrowserRouter as Router, Route, Routes, Link} from "react-router-dom";
+import Contactos from "./Contactos"
+import Problema2 from "./Problema2"
 
 function Ejercisios() {
   return (
     <>
-      <Prob2/>
+      <Router>
+          <Link to="/"/><Link/>
+          <Link to="/Contactos"/><Link/>
+            <div>
+                <Routes>
+                    <Route path='/' element={<Problema2/>} />
+                    <Route path='/Contactos' element={<Contactos/>} />
+                </Routes>
+            </div>
+        </Router>
     </>
   )
 }
